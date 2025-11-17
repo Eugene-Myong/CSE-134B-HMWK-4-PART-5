@@ -154,3 +154,10 @@ hr {
 	white-space: nowrap;
 }
 
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 0.75s;
+}
